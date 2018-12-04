@@ -17,6 +17,9 @@ export default {
       }
     ]
   },
+  externals: {
+    react: 'React'
+  },
   resolve: {
     extensions: ['.jsx', '.js']
   },

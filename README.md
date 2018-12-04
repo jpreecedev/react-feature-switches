@@ -1,1 +1,3 @@
-# react-feature-switches
+# React Feature Switches
+
+A simple Universal JavaScript feature switching library
