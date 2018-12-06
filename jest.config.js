@@ -18,7 +18,7 @@ module.exports = {
   clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
-  // collectCoverage: false,
+  collectCoverage: true,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   // collectCoverageFrom: null,
@@ -32,12 +32,7 @@ module.exports = {
   // ],
 
   // A list of reporter names that Jest uses when writing coverage reports
-  // coverageReporters: [
-  //   "json",
-  //   "text",
-  //   "lcov",
-  //   "clover"
-  // ],
+  coverageReporters: ['json', 'text', 'lcov', 'clover'],
 
   // An object that configures minimum threshold enforcement for coverage results
   // coverageThreshold: null,
@@ -122,10 +117,10 @@ module.exports = {
   // setupFiles: [],
 
   // The path to a module that runs some code to configure or set up the testing framework before each test
-  setupTestFrameworkScriptFile: './enzyme.config.js',
+  // setupTestFrameworkScriptFile: './enzyme.config.js',
 
   // A list of paths to snapshot serializer modules Jest should use for snapshot testing
-  snapshotSerializers: ['enzyme-to-json/serializer'],
+  // snapshotSerializers: ['enzyme-to-json/serializer'],
 
   // The test environment that will be used for testing
   testEnvironment: 'node'
